@@ -11,3 +11,7 @@ Terminal Commands for GitHub.
 8. Type `git push -u origin master` to push the changes in your local repository to GitHub. 
 9. Follow the instruction to type username and password for GitHub.
 10. Done!
+11. __you can always check Changes of your repo with__ `git status`. 
+
+### Push local changes to GitHub
+
