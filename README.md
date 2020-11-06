@@ -62,4 +62,4 @@ Then type `git merge upstream/master` to merge the updates in your repo.
 Fixed any megre error and push into your GitHub.   
 
 ### VI. Clone a repo from a spcific branch:
-Use git clone --single-branch --branch <branchname> <remote-repo>
+Use `git clone --single-branch --branch <branchname> <remote-repo>`
