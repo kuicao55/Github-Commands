@@ -63,3 +63,24 @@ Fixed any megre error and push into your GitHub.
 
 ### VI. Clone a repo from a specific branch:
 Use `git clone --single-branch --branch <branchname> <remote-repo>`
+
+### 实验性开发
+## 查看所有提交的哈希值<commit-hash>
+git log --oneline
+
+## 回滚工作区（分支状态不会改变）
+git checkout <commit-hash>
+
+## 硬回滚
+git reset --hard <commit-hash>
+
+## 创建分支
+git checkout -b new_branch_name
+
+## 将新分支推送到远程
+git push origin new_branch_name
+
+## 回滚到main版本
+git fetch origin
+git reset --hard origin/main （或 origin/master）
+git clean -fd 删除未跟踪的文件（可选）
