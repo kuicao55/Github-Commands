@@ -66,7 +66,7 @@ Use `git clone --single-branch --branch <branchname> <remote-repo>`
 
 ## 实验性开发
 ### 查看所有提交的哈希值<commit-hash>
-git log --oneline
+git log --oneline (press q to exit)
 
 ### 回滚工作区（分支状态不会改变）
 git checkout <commit-hash>
